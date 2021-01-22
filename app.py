@@ -126,5 +126,6 @@ def redirectWelcome():
 
 
 if __name__ == '__main__':
+   print("test editing in gu=it hub")
    ser = serial.Serial('COM10', 9600)
    app.run(port=10)
