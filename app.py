@@ -126,6 +126,6 @@ def redirectWelcome():
 
 
 if __name__ == '__main__':
-   print("test editing in git hub")
+   print("test editing 2 in git hub")
    ser = serial.Serial('COM10', 9600)
    app.run(port=10)
